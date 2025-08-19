@@ -26,8 +26,8 @@ body {
     top: 24px;
     /*left: 50%;*/
     /*transform: translateX(-50%);*/
-    pointer-events: none;                                       /*HERE*/
-    white-space: nowrap;                                        /*HERE*/
+    pointer-events: none; /*HERE*/
+    white-space: nowrap; /*HERE*/
     font-family: "Arial Black", "Arial Bold", Arial, sans-serif;
     background: linear-gradient(
             to bottom,
@@ -44,8 +44,8 @@ body {
     max-width: 1200px;
     height: clamp(220px, 55vh, 350px);
     position: relative;
-    perspective: 1000px;                                           /*HERE*/
-    margin-top: clamp(120px, 6vh, 80px);                            /*HERE*/
+    perspective: 1000px; /*HERE*/
+    margin-top: clamp(120px, 6vh, 80px); /*HERE*/
     padding-bottom: 10px;
     overflow: visible;
 }
@@ -57,7 +57,7 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    transform-style: preserve-3d;
+    transform-style: preserve-3d;               /*HERE*/
     transition: transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
@@ -68,7 +68,7 @@ body {
     background: white;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);  /*HERE*/
     transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     cursor: pointer;
 }
@@ -131,7 +131,7 @@ body {
 
 .card.hidden {
     opacity: 0;
-    pointer-events: none;                                         /*HERE*/
+    pointer-events: none; /*HERE*/
 }
 
 .member-info {
