@@ -1,0 +1,28 @@
+@keyframes bounceInPlace {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(-10px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.animate-bounce-in-place {
+    animation: bounceInPlace 1s ease-out forwards;
+}
+
+/* 3D Hover Effect */
+.hover-3d:hover {
+    transform: rotateX(5deg) rotateY(-5deg) scale(1.05);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.hover-3d {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
