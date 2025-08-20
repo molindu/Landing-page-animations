@@ -2,13 +2,14 @@ import './App.css'
 import LandingPage01 from "./landingPage/LandingPage01.jsx";
 import LandingPage02 from "./landingPage/LandingPage02.jsx";
 import LandingPage03 from "./landingPage/LandingPage03.jsx";
+import LandingPage04 from "./landingPage/LandingPage04.jsx";
 import {useState} from "react";
 
 const pages = [
     <LandingPage01/>,
     <LandingPage02/>,
     <LandingPage03/>,
-    // Add more pages here in order
+    <LandingPage04/>,
 ];
 
 function App() {
